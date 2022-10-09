@@ -1,0 +1,42 @@
+.Cuerpo{  
+    background-color:#00b74f;
+}
+    
+    .Formulario{  
+        border:1px solid #fff;  
+        text-align:center;   
+        font-family:Tahoma, Geneva, sans-serif;     
+        border-radius:13px 13px 13px 13px;
+        background-color: #fff;
+        margin: 1% 20% 1% 20%;
+    }
+    
+    .Title{   
+        color:#00b74f;  
+        font-family:Tahoma, Geneva, sans-serif;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+        
+    .Input-Datos{    
+        border-radius:13px;    
+        height: 30px;  
+        width:80%;
+        margin: 10px;
+        font-family:Tahoma, Geneva, sans-serif;  
+        text-align:left;
+        font-size: large;
+        border-color: #00b74f;
+    }
+
+    .Registrarse{
+        color: #fff;
+        border: none;
+        margin: 20px;
+        border-radius: 13px;
+        width: 80px;
+        height: 40px;
+        font-size: large;
+        font-weight: bold;
+    }
+        
