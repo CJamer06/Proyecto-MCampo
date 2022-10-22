@@ -3,36 +3,43 @@
     <head>
         <title>Oferta</title>
         <link rel="stylesheet" href="css/oferta.css" />
+        <link rel="stylesheet" href="css/global.css" />
     <body>
 
         <nav class="Nav-Barra">
             <div class="container">
+                <div class="p">
                 <a href="#" class="Nav-Titulo">MCampo</a>
-                <div class="Box"></div>
-                <div class="Nav-Barra-Botones">
-                    <button class="Buton-Nav-User">
-                        <a href="#" class="Nav-Titulo">Usuario</a>
-                    </button>
+                </div>
+                <div class="p">
+
+                </div>
+                <div class="p Nav-Titulo">
+                    <a href="#" class="Box">Usuario</a>
                 </div>
             </div>
         </nav>
 
-        <form action="#" method="POST" id="Formulario" class="Box-body">
-            <div class="input-group">
+        <form action="#" method="POST" id="Formulario" class="Formulario f2">
+            <div>
                 <form id="subscribe-form" action="#" method="POST">
 
-                        <label for="label" class="label">Nombre del Producto</label>
-                        <input type="text" placeholder="Nombre Producto" class="Input-Datos-Ofer"/>
-                        <br>
-                        <label for="label" class="label">Fecha de cosecha</label>
-                        <input type="date" class="Input-Datos-Ofer"/>
-                        <br>
-                        <label for="label" class="label">Cantidad de Producto en Kg</label>
-                        <input type="number" placeholder="Escriba aquí" class="Input-Datos-Ofer"/>
-                        <br>
-                        <label for="label" class="label">Precio por Kg</label>
-                        <input type="text" placeholder="Escriba aquí" class="Input-Datos-Ofer"/>
-                        <button type="submit" class="Submit-Boton">Enviar</button>
+                        <h2 class="label m">Nombre del Producto</h2>
+                        <input type="text" placeholder="Nombre Producto" class="Input-Datos"/>
+                        <h2 class="label m">Fecha de cosecha</h2>
+                        <input type="date" class="Input-Datos"/>
+                        <h2 class="label m">Cantidad de Producto en Kg</h2>
+                        <input type="number" placeholder="Ejemplo 300" class="Input-Datos"/>
+                        <h2 class="label m">Precio por Kg</h2>
+                        <input type="text" placeholder="Ejemplo 200" class="Input-Datos"/>
+
+                        <p class="label m">Seleccione una imagen del producto:
+                        <input type="file" accept="image/*" name="imagen1" class="img"/>
+                        </p>
+            
+                        <div aling = Center>
+                            <button type="submit" class="button">Enviar</button>
+                        </div>
                 </form>
             </div>
         </form>

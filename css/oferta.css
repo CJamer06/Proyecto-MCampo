@@ -17,75 +17,19 @@
     font-weight:700;
     font-size: 31px;
     width: auto;
-}
-
-.Buton-Nav-User{
-    background:#F49D2C;
-    border-radius:13px;
-    font-family:Tahoma, Geneva, sans-serif;
-    text-decoration: none;
-    font-weight:700;
-    font-size: large;
-    color:white;
-    border: none;
-    height:100%; 
-    width:auto;
+    text-align: right;
 }
 
 .Box{
-    width: 91%;
-}
-
-#Formulario{
-    background:#daffea;
-    border-radius:13px 13px 13px 13px;
-    border:5px solid #00b74f;
-    display:block;
-    position:relative;
-    right:auto;
-    bottom:auto;
-    left:8%;
-    width:auto;
-    height:90%;
-    top:auto;
-    margin:0 0 0 0;
-    padding:0 0 0 0;
-    max-width:83.9%;
-}
-
-.input-group{
-    margin: 10%;
-    align-content: center;
-}
-
-.Input-Datos-Ofer{
-    border-radius:13px;    
-    height: 50px;  
-    width:95%;
-    margin: 10px;
-    font-family:Tahoma, Geneva, sans-serif;  
-    text-align:left;
-    font-size: large;
-    border-color: #00b74f;
-}
-
-.Submit-Boton{
+    background:#F49D2C;
+    text-align: right;
+    text-decoration: none;
     color: #fff;
-    border: none;
-    background-color: #F49D2C;
-    margin: 10px;
+    width: auto;
+    height: 100%;
     border-radius: 13px;
-    width: 80px;
-    height: 50px;  
-    font-size: large;
-    font-weight: bold;
+    padding: 1px;
 }
 
-.label{
-    color:#00b74f;
-    font-family:Tahoma, Geneva, sans-serif;  
-    font-size: x-large;
-    font-weight: bold;
-    margin: 3%;
-}
+
     

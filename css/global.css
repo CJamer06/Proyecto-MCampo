@@ -1,0 +1,59 @@
+button{
+    color: #fff;
+    border: none;
+    margin: 20px;
+    border-radius: 13px;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #F49D2C;
+}
+
+.Input-Datos{    
+    border-radius:13px;    
+    height: 40px;  
+    width:95%;
+    margin: 10px 0 10px 0;
+    font-family:Tahoma, Geneva, sans-serif;  
+    font-size: large;
+    border-color: #00b74f;
+    padding: 0 0 0 10px;
+}
+
+.Formulario{   
+    text-align:center;   
+    font-family:Tahoma, Geneva, sans-serif;     
+    border-radius:13px 13px 13px 13px;
+    background-color: #fff;
+    margin: 5% 20% 1% 20%;
+    padding: 5%;
+}
+
+.f2{
+    background-color: #deffef;
+    border:solid;
+    border-color: #00b74f;
+    margin: 5% 10% 1% 10%;
+}
+
+.p{
+    width: 33%;
+}
+
+.label{
+    color:#00b74f;
+    font-family:Tahoma, Geneva, sans-serif;  
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+}
+
+.m{
+    margin: 10px;
+}
+
+.img{
+    font-size: large;
+    font-weight: bold;
+}
